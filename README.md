@@ -22,8 +22,6 @@ Nesse projeto, fomos capazes de:
 
   - Criar um store Redux em aplicações React
 
-	@@ -82,721 +34,21 @@ Nesse projeto, você será capaz de:
-
 ---
 
 ## O que foi ser desenvolvido
