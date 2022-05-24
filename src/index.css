@@ -1,0 +1,39 @@
+:root {
+  --blue: #3dd8fc;
+  --pink: #f752e0;
+  --green: #a8e063;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: white;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/pexels-frans-van-heerden-1022692.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+    background: linear-gradient(163deg, transparent 0px, transparent 1px, #222 1px, #222 14px, transparent 14px), linear-gradient(161deg, transparent 0px, #181818 1px, #222 2px, #222 15px, transparent 15px), linear-gradient(343deg, transparent 0px, transparent 1px, #222 1px, #222 14px, transparent 14px), linear-gradient(343deg, transparent 0px, transparent 1px, #222 1px, #222 14px, transparent 14px);
+    background-color: #181818;
+    background-position: 2px 1px, 23px 16px,48px 15px, 21px 30px;
+    background-size: 48px 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

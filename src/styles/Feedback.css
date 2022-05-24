@@ -1,0 +1,92 @@
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  margin: 48px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.feedback-text {
+  font-size: 2rem;
+  font-weight: 600;
+  text-shadow: 0 0 6px var(--pink);
+}
+
+.feedback-data {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-shadow: 0 0 6px var(--blue);
+}
+
+.feedback-btns {
+  display: flex;
+  gap: 32px;
+  margin: 32px auto 0;
+}
+
+.feedback-btns button {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.feedback-btns button span {
+  display: none;
+}
+
+.play-again-btn {
+  border: 3px solid var(--green);
+  box-shadow: inset 0 0 16px var(--green) , 0 0 16px var(--green);
+}
+
+.play-again-btn:hover {
+  background-color: var(--green);
+  box-shadow: 0 2px 30px var(--green);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.play-again-btn:hover svg {
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.6));
+}
+
+.ranking-btn {
+  border: 3px solid var(--pink);
+  box-shadow: inset 0 0 16px var(--pink) , 0 0 16px var(--pink);
+}
+
+.ranking-btn:hover {
+  background-color: var(--pink);
+  box-shadow: 0 2px 30px var(--pink);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.ranking-btn:hover svg {
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
+}
+
+@media screen and ( max-width : 768px ) {
+
+  .feedback-btns {
+    flex-wrap: wrap;
+    margin: 32px;
+  }
+
+  .feedback-btns button {
+    flex: 1;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+
+  .feedback-btns button span {
+    display: inline;
+  }
+}

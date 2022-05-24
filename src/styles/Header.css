@@ -1,0 +1,57 @@
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 32px;
+}
+
+.header-player {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 16px;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.score, .name {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.score, .timer {
+  text-shadow: 0 0 6px var(--blue);
+}
+
+.name {
+  text-shadow: 0 0 6px var(--pink);
+}
+
+.timer {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.img-gravatar {
+  border-radius: 50px;
+  filter: drop-shadow(0 0 15px var(--pink));
+}
+
+@media screen and ( max-width : 768px ) {
+
+  header {
+    flex-wrap: wrap-reverse;
+    padding-top: 16px;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+  }
+
+}
