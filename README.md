@@ -6,6 +6,32 @@ Projeto desenvolvido em grupo como estudante da [Trybe](https://www.betrybe.com/
 
 ---
 
+## 📦 Instalação e Execução
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/romulo-rp29/neon-trivia-game.git
+   cd neon-trivia-game
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+
+4. Acesse a aplicação no navegador:
+   ```
+   http://localhost:3000
+   ```
+
+---
 # Desenvolvedores:
 - [Halister Fernando](https://github.com/HalisterFernando)
 - [Isabella Chagas](https://github.com/isabellamarc)
